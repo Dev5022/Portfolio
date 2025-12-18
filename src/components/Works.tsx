@@ -14,8 +14,8 @@ const projects = [
             { name: "ai/ml", color: "orange-text-gradient" },
         ],
         image: null, // placeholder
-        source_code_link: "https://github.com/dikshithreddym/Earths-Pulse",
-        live_link: "https://github.com/dikshithreddym/Earths-Pulse",
+        source_code_link: "https://github.com/Dev5022/Earths-Pulse",
+        live_link: "https://github.com/Dev5022/Earths-Pulse",
     },
     {
         name: "EcoSortAI",
@@ -27,8 +27,8 @@ const projects = [
             { name: "python", color: "pink-text-gradient" },
         ],
         image: null,
-        source_code_link: "#",
-        live_link: "#",
+        source_code_link: "https://github.com/Dev5022/Hacktrent2024-EcoSort",
+        live_link: "https://github.com/Dev5022/Hacktrent2024-EcoSort",
     },
     {
         name: "Movie Tracker",
@@ -40,8 +40,8 @@ const projects = [
             { name: "mysql", color: "pink-text-gradient" },
         ],
         image: null,
-        source_code_link: "#",
-        live_link: "#",
+        source_code_link: "https://github.com/Dev5022/COIS-3430-Movie-Tracker-Assignment3-",
+        live_link: "https://github.com/Dev5022/COIS-3430-Movie-Tracker-Assignment3-",
     },
     {
         name: "URL Shortener",
