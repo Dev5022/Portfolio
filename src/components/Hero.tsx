@@ -17,8 +17,8 @@ const Hero = () => {
                             Hi, I'm <span className="text-accent">Dev</span>
                         </h1>
                         <p className="hero-subtitle">
-                            I develop 3D visuals, user <br className='hidden-mobile' />
-                            interfaces and web applications.
+                            I solve complex problems through logic and DSA, <br className='hidden-mobile' />
+                            developing 3D visuals and web applications.
                         </p>
                     </div>
                 </div>
