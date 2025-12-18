@@ -14,8 +14,8 @@ const projects = [
             { name: "ai/ml", color: "orange-text-gradient" },
         ],
         image: null, // placeholder
-        source_code_link: "#",
-        live_link: "#",
+        source_code_link: "https://github.com/dikshithreddym/Earths-Pulse",
+        live_link: "https://github.com/dikshithreddym/Earths-Pulse",
     },
     {
         name: "EcoSortAI",
@@ -53,8 +53,8 @@ const projects = [
             { name: "sql", color: "pink-text-gradient" },
         ],
         image: null,
-        source_code_link: "#",
-        live_link: "#",
+        source_code_link: "https://github.com/Dev5022/url-shortener",
+        live_link: "https://github.com/Dev5022/url-shortener",
     },
 ];
 
