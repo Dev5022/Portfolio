@@ -1,0 +1,40 @@
+.tech-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tech-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.tech-icon-wrapper {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151030;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #2b2b2b;
+}
+
+.tech-icon-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(145, 94, 255, 0.4);
+}
+
+.tech-icon {
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

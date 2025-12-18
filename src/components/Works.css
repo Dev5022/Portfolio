@@ -1,0 +1,125 @@
+.works-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.works-text {
+    margin-top: 1rem;
+    color: var(--color-text-secondary);
+    font-size: 17px;
+    max-width: 48rem;
+    line-height: 30px;
+}
+
+.projects-grid {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: #151030;
+    /* tertiary */
+    padding: 1.25rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid #2b2b2b;
+}
+
+.project-card-image-content {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.img-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5rem;
+}
+
+.project-card-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.75rem;
+    z-index: 10;
+}
+
+.card-links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.card-icon:hover {
+    transform: scale(1.1);
+}
+
+.project-info {
+    margin-top: 1.25rem;
+}
+
+.project-name {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.project-desc {
+    margin-top: 0.5rem;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.project-tags {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    font-size: 14px;
+}
+
+.blue-text-gradient {
+    color: #00CEA8;
+}
+
+.green-text-gradient {
+    color: #00ff7f;
+}
+
+.pink-text-gradient {
+    color: #f272c8;
+}
+
+.orange-text-gradient {
+    color: #ffad60;
+}

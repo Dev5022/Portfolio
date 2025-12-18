@@ -1,0 +1,58 @@
+.extracurricular-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.activities-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.activity-card-wrapper {
+    width: 100%;
+    max-width: 500px;
+    /* Wider than services to fit text */
+}
+
+.activity-card {
+    background: var(--color-tertiary);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    min-height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #2b2b2b;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+}
+
+.activity-icon {
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.activity-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.activity-description {
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
