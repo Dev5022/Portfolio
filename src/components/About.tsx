@@ -42,11 +42,10 @@ const About = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.2, duration: 1 }}
             >
-                I'm a skilled software developer with experience in TypeScript and
-                JavaScript, and expertise in frameworks like React, Node.js, and
-                Three.js. I'm a quick learner and collaborate closely with clients to
-                create efficient, scalable, and user-friendly solutions that solve
-                real-world problems. Let's work together to bring your ideas to life!
+                I'm a skilled Software Engineer with a strong algorithmic and analytical foundation,
+                focused on building interactive 3D visuals, scalable web applications, and AI-driven solutions.
+                Passionate about solving complex problems through data structures, algorithms, and mathematical reasoning,
+                while creating seamless user experiences.
             </motion.p>
 
             <div className='services-container'>
