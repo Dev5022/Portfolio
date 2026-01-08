@@ -15,16 +15,20 @@
     right: 0;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     gap: 1.25rem;
     z-index: 10;
     pointer-events: none;
-    /* Let clicks pass through to canvas if needed */
 }
 
-/* Enable pointer events on text */
-.hero-head {
+/* Enable pointer events on text and image */
+.hero-head,
+.hero-img-container {
     pointer-events: auto;
+}
+
+.hero-head {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -69,6 +73,21 @@
     font-weight: 500;
     font-size: 16px;
     margin-top: 0.5rem;
+}
+
+.hero-img-container {
+    display: none;
+    /* Hide on mobile by default */
+}
+
+.hero-main-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #7c25ff;
+    box-shadow: 0 0 30px rgba(145, 94, 255, 0.6);
+    transform: translateX(35px);
 }
 
 .hidden-mobile {
@@ -117,6 +136,15 @@
         font-size: 26px;
     }
 
+    .hero-img-container {
+        display: block;
+    }
+
+    .hero-main-img {
+        width: 300px;
+        height: 300px;
+    }
+
     .hidden-mobile {
         display: block;
     }
@@ -130,5 +158,10 @@
 
     .hero-subtitle {
         font-size: 30px;
+    }
+
+    .hero-main-img {
+        width: 400px;
+        height: 400px;
     }
 }

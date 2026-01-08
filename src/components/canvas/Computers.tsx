@@ -4,7 +4,7 @@ import { OrbitControls, Preload, Sphere, MeshDistortMaterial } from "@react-thre
 
 const Computer = () => {
     return (
-        <Sphere args={[1, 100, 200]} scale={2.5}>
+        <Sphere args={[1, 100, 200]} scale={2.0}>
             <MeshDistortMaterial
                 color="#915eff"
                 attach="material"

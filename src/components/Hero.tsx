@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ComputersCanvas } from './canvas/index';
+import devPhoto from './img/dev-photo.jpeg';
 import './Hero.css';
 
 const Hero = () => {
@@ -21,6 +22,10 @@ const Hero = () => {
                             developing 3D visuals and web applications.
                         </p>
                     </div>
+                </div>
+
+                <div className="hero-img-container">
+                    <img src={devPhoto} alt="Dev Patel" className="hero-main-img" />
                 </div>
             </div>
 
