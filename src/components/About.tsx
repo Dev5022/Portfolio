@@ -3,9 +3,9 @@ import './About.css';
 
 const services = [
     { title: "Web Developer", icon: "🌐" },
-    { title: "React Native Developer", icon: "📱" },
+    { title: "Full Stack Developer", icon: "📱" },
     { title: "Backend Developer", icon: "⚙️" },
-    { title: "3D Visuals", icon: "🧊" },
+    { title: "AI Developer", icon: "🤖" },
 ];
 
 const ServiceCard = ({ index, title, icon }: { index: number, title: string, icon: string }) => {
